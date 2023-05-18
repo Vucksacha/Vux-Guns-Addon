@@ -3,12 +3,6 @@
 		<item_property_overrides name="gunHandgunT4P90">
 			<property name="ScopeCameraOffset" value="0.022,-0.08298125,-.01"/>
 		</item_property_overrides>
-		<item_property_overrides name="gunHandgunT4P902">
-			<property name="ScopeCameraOffset" value="0.022,-0.08298125,-.01"/>
-		</item_property_overrides>
-		<item_property_overrides name="gunHandgunT4P903">
-			<property name="ScopeCameraOffset" value="0.022,-0.08298125,-.01"/>
-		</item_property_overrides>
 	</append>
 
 
