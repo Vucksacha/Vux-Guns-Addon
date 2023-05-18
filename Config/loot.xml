@@ -1,0 +1,47 @@
+<VuxzGuns>
+	<insertbefore xpath="/lootcontainers/lootgroup[@name='weaponsCoilpistol+ammo']">
+		<lootgroup name="weaponsgunHandgunT4P90+ammo" count="2">
+			<item name="DF44MagCoilround" count="25,50"/> <!-- need to change this to 9mm, placeholder until fn added -->
+			<item name="DFcoilgunParts" count="1" />
+			<item name="DFcoilgunGrip" count="1" />
+			<item name="DFcoilpistolBarrel" count="1" />
+			<item name="DFcoilpistolReceiver" count="1" />
+		</lootgroup>
+	</insertbefore>
+
+	<insertbefore xpath="/lootcontainers/lootgroup[@name='groupCoilpistolParts']">
+		<lootgroup name="groupgunHandgunT4P90Parts" count="1,2">
+			<item name="DFcoilgunParts" count="1" />
+			<item name="DFcoilgunGrip" count="1" />
+			<item name="DFcoilpistolBarrel" count="1" />
+			<item name="DFcoilpistolReceiver" count="1" />
+		</lootgroup>
+	</insertbefore>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT4_Gunslinger']">
+		<item name="gunHandgunT4P90" prob="0.1" count="1"/>
+		<item group="groupgunHandgunT4P90Parts" prob="1.25"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsSuperRare']">
+		<item name="gunHandgunT4P90Schematic" loot_prob_template="ProbT3"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='questRangedT5']">
+		<item name="gunHandgunT4P90" loot_prob_template="GradeALoot"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestRangedT4']">
+		<item name="gunHandgunT4P90" loot_prob_template="GradeBLoot"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestRangedCompleteT5']">
+		<item name="gunHandgunT4P90" loot_prob_template="GradeALoot"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='questGCRangedT4']">
+		<item name="gunHandgunT4P90" loot_prob_template="GradeBLoot"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='questGCRangedT5']">
+		<item name="gunHandgunT4P90" loot_prob_template="GradeBLoot"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT4_FatCopDemon']">
+		<item group="groupgunHandgunT4P90Parts" loot_prob_template="ProbT4" count="1,2"/>
+		<item name="gunHandgunT4P90" loot_prob_template="ProbT4" count="1"/>
+	</append>
+</VuxzGuns>
