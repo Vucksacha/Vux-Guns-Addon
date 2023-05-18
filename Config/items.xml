@@ -19,7 +19,7 @@
 			<property name="RepairExpMultiplier" value="10.8"/>
 			<property name="LightValue" value=".45"/>
 			<property name="EconomicValue" value="1500"/>
-			<property name="UnlockedBy" value="perkSMG,gunHandgunT3SMG5Schematic"/>
+			<property name="UnlockedBy" value="perkSMG,gunHandgunT4P90Schematic"/>
 			<property name="ShowQuality" value="true"/>
 
 			<property class="Action0">
@@ -92,6 +92,17 @@
 			
 				<triggered_effect trigger="onReloadStart" action="ModifyCVar" cvar="brassAmmo" operation="set" value="0"/>
 				<triggered_effect trigger="onReloadStart" action="ModifyCVar" cvar="steelAmmo" operation="set" value="0"/>
+			</effect_group>
+		</item>
+
+		<item name="gunHandgunT4P90Schematic">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="gunHandgunT4P90"/>
+			<property name="Unlocks" value="gunHandgunT4P90"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunHandgunT4P90" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>
 	</append>

@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+gunHandgunT4P90,items,Gun,,,P90,,,,,,,,,,,,,
+gunHandgunT4P90Desc,items,Gun,,,This P90 gun has a high fire rate and uses 9mm ammo.\n\nRepair with a Repair Kit.\nScrap to 3 Iron.,,,,,,,,,,,,,
+gunHandgunT4P90Schematic,items,Gun,,,P90 Schematic,,,,,,,,,,,,,,

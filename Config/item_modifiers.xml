@@ -4,9 +4,6 @@
 			<property name="ScopeCameraOffset" value="0.022,-0.08298125,-.01"/>
 		</item_property_overrides>
 	</append>
-
-
-
 	<!-- Remove the P90 sight if reflex mod is added -->
 	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
         <effect_group tiered="false" name="hide p90 sight">
