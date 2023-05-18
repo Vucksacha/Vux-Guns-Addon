@@ -1,0 +1,11 @@
+<VuxzGuns>
+	<append xpath="/recipes">
+		<recipe name="gunHandgunT4P90" craft_area="workbench" count="1" tags="learnable,perkCraftGuns">
+			<ingredient name="DFautoRifleParts" count="1"/>
+			<ingredient name="DFpistolBarrel" count="1"/>
+			<ingredient name="DFpistolGrip" count="1"/>
+			<ingredient name="DFAK47Receiver" count="1"/>
+			<ingredient name="resourceOil" count="1"/>
+		</recipe>
+	</append>
+</VuxzGuns>

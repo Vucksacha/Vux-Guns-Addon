@@ -1,0 +1,24 @@
+<VuxzGuns>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+		<item_property_overrides name="gunHandgunT4P90">
+			<property name="ScopeCameraOffset" value="0.022,-0.08298125,-.01"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunHandgunT4P902">
+			<property name="ScopeCameraOffset" value="0.022,-0.08298125,-.01"/>
+		</item_property_overrides>
+		<item_property_overrides name="gunHandgunT4P903">
+			<property name="ScopeCameraOffset" value="0.022,-0.08298125,-.01"/>
+		</item_property_overrides>
+	</append>
+
+
+
+	<!-- Remove the P90 sight if reflex mod is added -->
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+        <effect_group tiered="false" name="hide p90 sight">
+            <requirement name="HoldingItemHasTags" tags="p90"/>
+            <triggered_effect trigger="onSelfHoldingItemCreated" action="SetTransformActive" active="false" parent_transform="#HeldItemRoot" transform_path="P90_scope_mesh"/>     
+        </effect_group>
+	</append>
+
+</VuxzGuns>
