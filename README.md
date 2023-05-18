@@ -8,3 +8,11 @@
     Guns added are:<br />
     P90
 </details>
+
+
+<details>
+    <summary>
+        <h3>Compatibility</h3>
+    </summary>
+    Currently the mod is only compatible with Darkness Falls, and may not work with vanilla 7 Days to Die.
+</details>
