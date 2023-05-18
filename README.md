@@ -1,4 +1,4 @@
-# Vux-Guns-Addon-Darkness-Falls
- This mod will add more gun variety, compatible with Darkness Falls
-Guns added are:
+# Vux-Guns-Addon
+ This mod will add more gun variety, compatible with Darkness Falls__
+Guns added are:__
 P90
