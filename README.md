@@ -6,8 +6,16 @@ This mod adds more guns in to 7 Days to Die and is required to be on both the se
         <h3>Gun list</h3>
     </summary>
     <ul>
-        <li>P90</li>
-        <li>High-Powered Sniper Rifle</li>
+        <li>P90
+            <ul>
+                <li>High fire rate, large magazine</li>
+            </ul>
+        </li>
+        <li>High-Powered Sniper Rifle
+            <ul>
+                <li>High damage, High penetration, 100% armour penetration, long reload, single-shot</li>
+            </ul>
+        </li>
 </details>
 
 
