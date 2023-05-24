@@ -13,7 +13,7 @@ This mod adds more guns in to 7 Days to Die and is required to be on both the se
         </li>
         <li>High-Powered Sniper Rifle
             <ul>
-                <li>High damage, High penetration, 100% armour penetration, long reload, single-shot</li>
+                <li>High damage, High entity penetration, 100% armour penetration, long reload, single-shot</li>
             </ul>
         </li>
 </details>
