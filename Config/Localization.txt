@@ -2,3 +2,7 @@ Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german
 gunHandgunT4P90,items,Gun,,,P90,,,,,,,,,,,,,
 gunHandgunT4P90Desc,items,Gun,,,This P90 gun has a high fire rate and uses 9mm ammo.\n\nRepair with a Repair Kit.\nScrap to 3 Iron.,,,,,,,,,,,,,
 gunHandgunT4P90Schematic,items,Gun,,,P90 Schematic,,,,,,,,,,,,,,
+gunRifleT4SniperRifle,items,Gun,,,High-Powered Sniper Rifle,,,,,,,,,,,,,
+gunRifleT4SniperRifleDesc,items,Gun,,,"This high-powered single-shot sniper rifle is slow to reload, but it can completely pierce through armour & multiple enemies.\n\nUses .44 magnum ammo.\n\nRepair with a Repair Kit.\nScrap to 9 Mechanical Parts".,,,,,,,,,,,,,
+gunRifleT4SniperRifleSchematic,items,Gun,,,High-Powered Sniper Rifle Schematic,,,,,,,,,,,,,,
+

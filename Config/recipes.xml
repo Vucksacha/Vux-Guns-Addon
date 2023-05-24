@@ -8,4 +8,13 @@
 			<ingredient name="resourceOil" count="1"/>
 		</recipe>
 	</append>
+	<append xpath="/recipes">
+		<recipe name="gunRifleT4SniperRifle" craft_area="workbench" count="1" tags="learnable,perkCraftGuns">
+			<ingredient name="DFcoilgunParts" count="1"/>
+			<ingredient name="DFcoilgunGrip" count="1"/>
+			<ingredient name="DFcoilsniperBarrel" count="1"/>
+			<ingredient name="DFcoilsniperReceiver" count="1"/>
+			<ingredient name="resourceOil" count="1"/>
+		</recipe>
+	</append>
 </VuxzGuns>

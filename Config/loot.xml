@@ -44,4 +44,54 @@
 		<item group="groupgunHandgunT4P90Parts" loot_prob_template="ProbT4" count="1,2"/>
 		<item name="gunHandgunT4P90" loot_prob_template="ProbT4" count="1"/>
 	</append>
+
+
+
+
+
+
+	<insertbefore xpath="/lootcontainers/lootgroup[@name='groupCoilsniperParts']">
+		<lootgroup name="groupgunRifleT4SniperRifleParts" count="1,2">
+			<item name="DFcoilgunParts" count="1" />
+			<item name="DFcoilgunGrip" count="1" />
+			<item name="DFcoilsniperBarrel" count="1" />
+			<item name="DFcoilsniperReceiver" count="1" />
+		</lootgroup>
+	</insertbefore>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT4_DeadEye']">
+		<item group="groupgunRifleT4SniperRifleParts" prob="1.25"/>
+		<item name="gunRifleT4SniperRifle" prob="0.5" count="1"/>
+		<item name="DF762mmCoilround" count="20,40"/> <!-- should change this to mag?? or add 50 cal in?-->
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupHuntingRanged']">
+		<item name="gunRifleT4SniperRifle" loot_prob_template="ProbT4"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='questRangedT5']">
+		<item name="gunRifleT4SniperRifle" loot_prob_template="GradeALoot"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestRangedT4']">
+		<item name="gunRifleT4SniperRifle" loot_prob_template="GradeBLoot"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestRangedCompleteT5']">
+		<item name="gunRifleT4SniperRifle" loot_prob_template="GradeALoot"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='questGCRangedT4']">
+		<item name="gunRifleT4SniperRifle" loot_prob_template="GradeBLoot"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='questGCRangedT5']">
+		<item name="gunRifleT4SniperRifle" loot_prob_template="GradeBLoot"/>
+	</append>
+
+	<insertbefore xpath="/lootcontainers/lootgroup[@name='weaponsCoilsniper+ammo']">
+		<lootgroup name="weaponsgunRifleT4SniperRifleParts+ammo" count="1,2">
+		<item name="DF762mmCoilround" count="10,20"/> <!-- should change this to mag?? or add 50 cal in?-->
+		<item name="DFcoilgunParts" count="1" />
+		<item name="DFcoilgunGrip" count="1" />
+		<item name="DFcoilsniperBarrel" count="1" />
+		<item name="DFcoilsniperReceiver" count="1" />
+		</lootgroup>
+	</insertbefore>
 </VuxzGuns>
+
