@@ -25,3 +25,16 @@ This mod adds more guns in to 7 Days to Die and is required to be on both the se
     </summary>
     Currently the mod is only compatible with Darkness Falls, and may not work with vanilla 7 Days to Die.
 </details>
+
+<details>
+    <summary>
+        <h3>Changelog</h3>
+    </summary>
+    <ul>
+        <li>V1.4
+            <ul>
+                <li>High-Powered Sniper Rifle crafting tier should properly scale now</li>
+            </ul>
+        </li>
+    </ul>
+</details>

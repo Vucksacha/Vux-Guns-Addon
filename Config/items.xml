@@ -21,7 +21,6 @@
 			<property name="EconomicValue" value="1500"/>
 			<property name="UnlockedBy" value="perkSMG,gunHandgunT4P90Schematic"/>
 			<property name="ShowQuality" value="true"/>
-
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value=".150"/> <!-- obsolete if rounds per minute exists -->
@@ -218,7 +217,5 @@
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>
-
-
 	</append>
 </VuxzGuns>
